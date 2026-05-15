@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fontdiner-swanky-regular {
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+h1 {
+    color: purple;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+#camaleonPrincipal {
+    width: 400px;
+}
+
+.fotografias {
+    /*border:3px solid blue;*/
+}
+
+#menuPpal>a {
+    text-decoration: none;
+}
+
+#menu2>a {
+    font-size: 30px;
+}
+
+h1~p {
+    color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.parraItalica {
+    font-style: italic;
+}
+
+#fondoCabeza {
+    width: 100%;
+    height: 400px;
+    background-color: #16430B;
+}
+
+#cajaLogo {
+    padding-top: 100px;
+}
+
+#textoLogo {
+    color: #C4F567;
+    font-size: 35px;
+}
+
+#menuPpal {
+    background-color: #47A930;
+    padding: 7px;
+    box-shadow: 5px 5px 15px 5px rgb(4, 39, 2);
+}
+
+#menuPpal li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+#menuPpal a {
+    text-decoration: none;
+    color: #C4F567;
+}
+
+#seccion1
+{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+#contVideo
+{
+    
+    width: 50%;
+   /* border: 5px solid rgb(159, 10, 10);*/
+}
+#textoPpal
+{
+    width: 50%;
+   /* border: 5px solid rgb(7, 9, 126);*/
+    
+}
+#videoPpal
+{
+    width: 80%;
+    height: 300px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px 5px grey;
+}
+
+#seccion2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+     background-color: #d2e8aa;
+}
+.serv
+{
+    margin: 20px;
+   
+}

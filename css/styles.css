@@ -1,0 +1,52 @@
+.zen-dots-regular {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+h1 {
+    color: rgb(20, 3, 121)
+}
+h2 {
+    color: crimson;
+}
+
+#fondoincial {
+    padding: 0%;
+}
+#logo{
+
+    width: 10px;
+    height: 10px;
+    align-items: center
+}
+
+#textolog {
+
+    color: blue;
+    font-size: 30px;
+
+}
+
+#menupagina
+{
+    background-color: rgb(38, 0, 255);
+    padding: 7px;
+    box-shadow: 5px 5px 15px 5px black; 
+}
+
+#menupagina li
+{
+display: inline-block;
+list-style: none;
+padding: 10px;
+
+}
+
+#menupagina a
+{
+    text-decoration: none;
+    color: blueviolet;
+}
