@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    h1 {
+        color: red;
+        font-size: 80px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camaleones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilospropioscama.css">
+</head>
+
+
+
+<body>
+
+    <header>
+        <div id="fondoCabeza"><!-- Caja padre-->
+
+            <center>
+                <div id="cajaLogo"><!-- contenedor hijo IMAGEN-->
+
+                    <img src="imagenes/logosinfondo.png" id="logo" class="fotografias">
+
+                </div>
+
+
+                <div id="textoLogo" class="fontdiner-swanky-regular">
+                    AIPC - Asociación
+                </div>
+
+            </center>
+
+        </div>
+        <nav id="menuPpal">
+            <ul>
+                <li><a href="#">contacto</a></li>
+                <li><a href="#">imagenes</a></li>
+                <li><a href="#">videos</a></li>
+                <li><a href="#">Zonas</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--seccion-->
+
+        <section id="seccion1">
+
+            <div id="contVideo">
+                <video src="videos/camaleones.mp4" controls></video>
+            </div>
+
+            <div id="textoPpal">
+
+                <h1>Los Camaleones</h1>
+
+
+                <p class="parraItalica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique
+                    reiciendis
+                    pariatur a, sed quas iste quo ab accusamus asperiores neque voluptates ut alias, voluptas totam
+                    dolore?
+                    Incidunt, totam at!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique reiciendis pariatur a, sed
+                    quas iste
+                    quo ab accusamus asperiores neque voluptates ut alias, voluptas totam dolore? Incidunt, totam at!
+                </p>
+
+                <h3> Sub titulo </h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique reiciendis pariatur a, sed
+                    quas iste
+                    quo ab accusamus asperiores neque voluptates ut alias, voluptas totam dolore? Incidunt, totam at!
+                </p>
+
+            </div>
+            <div id="contVideo">
+                <center>
+                    
+                        <video src="videos/camaleones.mp4" id="videoPpal" controls></video>
+
+                </center>
+            </div>
+        </section>
+
+        <!--seccion-->
+@@ -95,149 +96,149 @@
+                <img src="imagenes/especie2.jpg" id="camaleonPrincipal" class="fotografias">
+            </div>
+            <div class="serv">
+                <img src="" alt="">
+                <img src="imagenes/especie2.jpg" id="camaleonPrincipal" class="fotografias">
+            </div>
+            <div class="serv">
+                <img src="" alt="">
+                <img src="imagenes/especie2.jpg" id="camaleonPrincipal" class="fotografias">
+            </div>
+
+        </section>
+
+        <!--seccion-->
+        <section id="seccion3">
+
+            <div id="contenedorFormulario">
+
+                <form action="" method="">
+
+                    <br>
+                    <label for="nombre1">Nombre:</label>
+                    <input type="text" name="nombre1" id="nombre1">
+                    <br>
+
+                    <label for="identificacion1">Identificación: </label>
+                    <input type="number" name="identificacion1" id="identificacion1">
+                    <br>
+
+                    <label for="Correo Electronico">Correo Electronico</label>
+                    <input type="email">
+
+                    <br>
+                    <label for="">Contraseña:</label>
+                    <input type="password">
+
+                    <br>
+                    <label>Genero:</label>
+                    <br>
+                    <label for="masculino1">Masculino </label>
+                    <input type="radio" name="genero" id="masculino1" value="1">
+                    <label for="femenino1">Femenino</label>
+                    <input type="radio" name="genero" id="femenino1" value="2">
+                    Otro
+                    <input type="radio" name="genero" id="otro1" value="3">
+
+                    <br>
+
+                    <label>¿Que opina usted sobre los camaleones?</label>
+                    <br>
+
+                    <textarea name="textoCamaleones" id="textoCamaleones" rows="10" cols="40"></textarea>
+
+                    <br>
+
+                    <label for="paisReside">País</label>
+                    <select name="paisReside" id="paisReside">
+                        <option value="0">-- SELECCIONE --</option>
+                        <option value="1">Colombia</option>
+                        <option value="2">Venezuela</option>
+                        <option value="3">Peru</option>
+                    </select>
+
+
+
+
+                    <br>
+                    <input type="submit" value="Guardar Datos">
+
+
+
+                </form>
+
+            </div>
+            <div id="contenedortabla">
+
+                <h1>Tabla sobre especies de camaleones</h1>
+
+                <table align="center" border="1" width="500px" id="tabla1">
+                    <caption>Especies en Latinoamerica</caption>
+                    <thead>
+                        <tr>
+                            <th>Pais</th>
+                            <th>Item</th>
+                            <th>foto</th>
+                            <th>Especie</th>
+                        </tr>
+                    </thead>
+                    <tbody align="center">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td colspan="2">
+                                <center>CARACTERISTICAS</center>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2">COLOMBIA</td>
+                            <td>1</td>
+                            <td><img src="imagenes/especie1.jpg" width="230px"></td>
+                            <td>Especie 1</td>
+                        </tr>
+                        <tr>
+
+                            <td>2</td>
+                            <td><img src="imagenes/especie2.jpg" width="230px"></td>
+                            <td>Especie 2</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <div id="contenedorUbicacion">
+
+            <ul>
+                <li>Lenguaje de bajo nivel </li>
+                <li>Lenguaje de alto nivel </li>
+            </ul>
+
+        </div>
+        <div id="contenedorRedes">
+
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+
+
+            <div>
+                <h3>Canción</h3>
+
+                <audio src="audios/audio.mp3" controls></audio>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
